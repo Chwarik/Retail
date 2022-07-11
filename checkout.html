@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail E-Commerce</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb3791518e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></div>
+        <div class="header__menu">
+          <div class="header__menu-col1"><a href="#"><img src="img/icons/search.svg" alt="search"></a></div>
+          <div class="header__menu-col mx-20">
+            <ul class="header__menu-list">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Spaces</a></li>
+              <li><a href="#">Products &amp; Services</a></li>
+              <li><a href="#">Showrooms</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Media</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="header__menu-col">
+            <ul class="header__menu-icons">
+              <li><a href="#"><img src="img/icons/cart.svg" alt="cart"></a></li>
+              <li><a href="#"><img src="img/icons/favor.svg" alt="wishlist"></a></li>
+              <li><a href="#"><img src="img/icons/user.svg" alt="profile"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header__shop">
+        <div class="container">
+          <div class="header__shop-tittle">
+            <h3>Check Out</h3><a href="#"><img class="me-2" src="img/icons/arrow.svg" alt="">Continue Shopping</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section">
+      <div class="container">
+        <form class="sendForm" action="#">
+          <div class="row">
+            <div class="col-lg-4 col-xs-12 mb-30 mb-lg-0">
+              <div class="sendForm__inner">
+                <div class="btn-group mb-3" role="group" aria-label="sex">
+                  <input class="btn-check" id="mrs" type="radio" name="btnradio" autocomplete="off" checked="">
+                  <label class="btn btn-outline-dark px-20" for="mrs">Mrs.</label>
+                  <input class="btn-check" id="mr" type="radio" name="btnradio" autocomplete="off">
+                  <label class="btn btn-outline-dark px-20" for="mr">Mr.</label>
+                </div>
+                <div class="mb-3">
+                  <input class="form-control" type="text" placeholder="First name*" value="" required>
+                </div>
+                <div class="mb-3">
+                  <input class="form-control" type="text" placeholder="Last name*" value="" required>
+                </div>
+                <div class="mb-3">
+                  <input class="form-control" type="email" placeholder="E-Mail" value="">
+                </div>
+                <div class="row gx-2 mb-3">
+                  <div class="col-8">
+                    <input class="form-control" type="text" placeholder="Street*" value="" required>
+                  </div>
+                  <div class="col-4">
+                    <input class="form-control" type="text" placeholder="Houses*" value="" required>
+                  </div>
+                </div>
+                <div class="row gx-2 mb-3">
+                  <div class="col-5">
+                    <input class="form-control" type="text" placeholder="PostCode*" value="" required>
+                  </div>
+                  <div class="col-7">
+                    <input class="form-control" type="text" placeholder="Location*" value="" required>
+                  </div>
+                </div>
+                <select class="form-select mb-3" aria-label="Select Country">
+                  <option selected="" disabled>Select Country</option>
+                  <option value="1">Belarus</option>
+                  <option value="2">Russia</option>
+                  <option value="3">Chine</option>
+                </select>
+                <div class="mb-3">
+                  <input class="form-control" type="text" placeholder="Phone Number" value=""><small class="text-muted">*Required field</small>
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input class="form-check-input" id="customer" type="checkbox" value="">
+                    <label class="form-check-label" for="customer">Create a customer account now and benefit from many advantages.</label>
+                  </div><small class="text-muted d-flex align-items-center ms-20"><img class="me-2" src="img/icons/info.svg" alt="">The password will be sent to you by email</small>
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input class="form-check-input" id="adress" type="checkbox" value="" checked="">
+                    <label class="form-check-label" for="adress">Shipping Address is Different</label>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <input class="form-control" type="text" placeholder="First name*" value="" required>
+                </div>
+                <div class="mb-3">
+                  <input class="form-control" type="text" placeholder="Last name*" value="" required>
+                </div>
+                <div class="row gx-2 mb-3">
+                  <div class="col-8">
+                    <input class="form-control" type="text" placeholder="Street*" value="" required>
+                  </div>
+                  <div class="col-4">
+                    <input class="form-control" type="text" placeholder="Houses*" value="" required>
+                  </div>
+                </div>
+                <div class="row gx-2 mb-3">
+                  <div class="col-5">
+                    <input class="form-control" type="text" placeholder="PostCode*" value="" required>
+                  </div>
+                  <div class="col-7">
+                    <input class="form-control" type="text" placeholder="Location*" value="" required>
+                  </div>
+                </div>
+                <select class="form-select mb-5" aria-label="Select Country">
+                  <option selected="" disabled>Select Country</option>
+                  <option value="1">Belarus</option>
+                  <option value="2">Russia</option>
+                  <option value="3">Chine</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12 mb-30 mb-lg-0">
+              <div class="sendForm__inner mb-1">
+                <label class="sendForm__check"><img src="img/icons/paypal.png" alt=""><span class="mx-20">Pay Pal</span>
+                  <input class="form-radio-input" type="radio" value="" name="pay">
+                </label>
+                <div class="sendForm__form d-none mt-3">
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Credit card number*" value="" required>
+                  </div>
+                  <div class="row gx-2 mb-3">
+                    <div class="col-5">
+                      <input class="form-control" type="text" placeholder="PostCode*" value="" required>
+                    </div>
+                    <div class="col-7">
+                      <input class="form-control" type="text" placeholder="Location*" value="" required>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Name of Cardholder*" value="" required>
+                  </div>
+                </div>
+              </div>
+              <div class="sendForm__inner mb-1">
+                <label class="sendForm__check"><img src="img/icons/paypal.png" alt=""><span class="mx-20">Pay Pal Plus</span>
+                  <input class="form-radio-input" type="radio" value="" name="pay">
+                </label>
+                <div class="sendForm__form d-none mt-3">
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Credit card number*" value="" required>
+                  </div>
+                  <div class="row gx-2 mb-3">
+                    <div class="col-5">
+                      <input class="form-control" type="text" placeholder="PostCode*" value="" required>
+                    </div>
+                    <div class="col-7">
+                      <input class="form-control" type="text" placeholder="Location*" value="" required>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Name of Cardholder*" value="" required>
+                  </div>
+                </div>
+              </div>
+              <div class="sendForm__inner">
+                <label class="sendForm__check"><img src="img/icons/bank.png" alt=""><span class="mx-20">Investment Bank</span>
+                  <input class="form-radio-input" type="radio" value="" name="pay" checked="">
+                </label>
+                <div class="sendForm__form mt-3">
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Credit card number*" value="" required>
+                  </div>
+                  <div class="row gx-2 mb-3">
+                    <div class="col-5">
+                      <input class="form-control" type="text" placeholder="PostCode*" value="" required>
+                    </div>
+                    <div class="col-7">
+                      <input class="form-control" type="text" placeholder="Location*" value="" required>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Name of Cardholder*" value="" required>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+              <div class="sendForm__inner">
+                <table class="table border-light align-middle">
+                  <tr>
+                    <th>Article</th>
+                    <th></th>
+                    <th>Total SAR</th>
+                  </tr>
+                  <tr>
+                    <td><img src="images/product.jpg" alt=""></td>
+                    <td><span class="d-block">1x</span><span>Lorem</span><span class="d-block">Lorem Ipsum</span><span>Ipsum</span></td>
+                    <td><span class="d-block">690.00</span></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/product.jpg" alt=""></td>
+                    <td><span class="d-block">1x</span><span>Lorem</span><span class="d-block">Lorem Ipsum</span><span>Ipsum</span></td>
+                    <td><span class="d-block">690.00</span></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/product.jpg" alt=""></td>
+                    <td><span class="d-block">1x</span><span>Lorem</span><span class="d-block">Lorem Ipsum</span><span>Ipsum</span></td>
+                    <td><span class="d-block">690.00</span></td>
+                  </tr>
+                </table>
+                <div class="sendForm__cost"><span class="d-block">Do you have a voucher?<span class="ms-3">(Optional)</span></span>
+                  <div class="sendForm__cost-button d-flex mt-30 mb-30"><a class="btn btn-outline-dark" href="#" role="button">Enter the code</a><a class="btn btn-outline-dark" href="#" role="button">Redeem</a></div>
+                  <table class="table border-light align-middle">
+                    <tr class="text-dark fw-bolder">
+                      <td class="py-0">Subtotal</td>
+                      <td class="text-end pe-0 py-0">2.070.00</td>
+                    </tr>
+                    <tr>
+                      <td class="py-0"><span>shippment</span></td>
+                      <td class="text-end pe-0 py-0"><span>103.50</span></td>
+                    </tr>
+                  </table><span>Delivery time 2 - 4 working days</span><a class="btn d-block btn-outline-dark mt-3" href="checkout.html" role="button">Checkout</a>
+                  <div class="mb-3 mt-3">
+                    <div class="form-check">
+                      <input class="form-check-input" id="adress" type="checkbox" value="" checked="">
+                      <label class="form-check-label" for="adress">T&amp;C is simply dummy text of the printing and typesetting industry</label>
+                    </div>
+                  </div>
+                  <table class="table border-light align-middle mb-0">
+                    <tr class="fw-bolder">
+                      <td class="py-0">Total</td>
+                      <td class="text-end pe-0 py-0">143,910.00</td>
+                    </tr>
+                    <tr>
+                      <td class="py-0"><span>(VAT)</span></td>
+                      <td class="text-end pe-0 py-0"><span>7,195.00</span></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__decor"></div>
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-md-4 mb-3"><a class="footer__logo" href="#"><img src="img/logo-light.svg" alt=""></a></div>
+          <div class="col-md-2 mb-3">
+            <h4>Products</h4>
+            <ul class="footer__menu">
+              <li><a href="#">Sand Stone</a></li>
+              <li><a href="#">Stone</a></li>
+              <li><a href="#">Cement</a></li>
+              <li><a href="#">Soft Stone</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h4>Services</h4>
+            <ul class="footer__menu">
+              <li><a href="#">Measurement Service</a></li>
+              <li><a href="#">Product Advice</a></li>
+              <li><a href="#">Interior Design</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h4>Contact information</h4>
+            <p>3181 Al Imam Saud Ibn Abdul Aziz Branch Rd, An Nuzhah, Riyadh 12474, Saudi Arabia</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer__social mb-md-5 mb-3"><a class="me-3" href="#"><i class="fa-brands fa-facebook-f"></i></a><a class="me-3" href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+          </div>
+        </div>
+        <div class="row fs-9">
+          <div class="col-md-9">
+            <p class="mb-0">Copyright © 2022 | All Rights Reserved.</p>
+          </div>
+          <div class="col-md-3">
+            <p class="mb-0 text-md-end">Created with love by <a href="#">thecreation.design</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
